@@ -1,0 +1,52 @@
+.wapper__detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.detail__img {
+  width: 90%;
+  height: 70vh;
+  border-radius: 10px;
+}
+
+.wapper__description {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.wapper__genre {
+  margin-bottom: 20px;
+}
+
+.wapper__overview {
+  background-color: rgba(255, 255, 255, 0.154);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.genre {
+  background-color: rgba(255, 255, 255, 0.881);
+  color: rgb(78, 78, 78);
+  padding: 8px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 1200px) {
+  .detail__img {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .detail__img {
+    max-height: 400px;
+  }
+}
